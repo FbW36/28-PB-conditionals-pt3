@@ -35,11 +35,11 @@ Lis = 112;
 Mary = 118;
 let highest = Math.max(118, 112, 118);
 
-if (Aleeza >= highest) {
+if (Aleeza == highest) {
   console.log(`Winner is Team Aleeza ${Aleeza}`);
-  if (Lis >= highest) {
+  if (Lis == highest) {
     console.log(`Winner is Team Lis ${Lis}`);
-  } else if (Mary >= highest) {
+  } else if (Mary == highest) {
     console.log(`Winner is Team Mary ${Mary}`);
   }
 }
